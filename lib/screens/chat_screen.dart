@@ -10,7 +10,7 @@ class ChatScreen extends StatelessWidget {
     return Scaffold(
       body: StreamBuilder(
         stream:  FirebaseFirestore.instance
-            .collection("chats/jhdvjhsdvksdbvjsd vlsnvlnlkvnsdlknvlsjdvlj/messages")
+            .collection("chats/l4BzlCOguaOcF1Qs6fg7/messages")
             .snapshots(),
         builder: (ctx, streamSnapshot){
           return ListView.builder(
