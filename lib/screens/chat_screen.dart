@@ -10,7 +10,7 @@ class ChatScreen extends StatelessWidget {
     return Scaffold(
       body: StreamBuilder(
         stream:  FirebaseFirestore.instance
-            .collection("chats/l4BzlCOguaOcF1Qs6fg7/messages")
+            .collection("chats/jhdvjhsdvksdbvjsd vlsnvlnlkvnsdlknvlsjdvlj/messages")
             .snapshots(),
         builder: (ctx, streamSnapshot){
           return ListView.builder(
@@ -21,9 +21,6 @@ class ChatScreen extends StatelessWidget {
             ),
           );
         },
-
-
-
       ),
       floatingActionButton: FloatingActionButton(
         child: const Icon(Icons.add),
