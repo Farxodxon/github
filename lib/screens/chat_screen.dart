@@ -21,6 +21,9 @@ class ChatScreen extends StatelessWidget {
             ),
           );
         },
+
+
+
       ),
       floatingActionButton: FloatingActionButton(
         child: const Icon(Icons.add),
